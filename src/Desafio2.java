@@ -58,13 +58,13 @@ void main() {
                 }
             }
 
-            break;
+             break;
 
-
-        default:
+        case 5:
             IO.println("Você saiu");
+            break;
+        default:
+            IO.println("Menu não encontrado");
     }
-
-}
 
 }
